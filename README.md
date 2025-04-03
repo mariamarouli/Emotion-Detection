@@ -80,12 +80,10 @@ Make sure you have Python 3.7+ installed.
 
 **Make sure to have the trained model file (model.h5) in the project directory. You can train the model or use pre-trained version from this *model.h5* file.**
 
-  4. Running the API
+  4. Running the API (This will start the server at *http://127.0.0.1:8000*):
 
     uvicorn main:app --reload
   
-    This will start the server at *http://127.0.0.1:8000*.
-
 
 ## How to Use
 * Upload an Image: Navigate to the frontend (provided in index.html), where you can upload a facial image.
