@@ -63,14 +63,15 @@ Prerequisites
 Make sure you have Python 3.7+ installed.
 
   1. Clone this repository:
-  git clone https://github.com/your-username/emotion-detection-api.git
-  cd emotion-detection-api
+  git clone https://github.com/mariamarouli/Emotion-Detection.git
+  cd Emotion-Detection
 
   2. Create a virtual environment:
   python -m venv .venv
-  source .venv/bin/activate  # On Windows, use .venv\Scripts\activate
 
-  3. Install the required dependencies:
+ .venv\Scripts\activate
+
+  4. Install the required dependencies:
   pip install -r requirements.txt
 
 **Make sure to have the trained model file (model.h5) in the project directory. You can train the model or use pre-trained version from this *model.h5* file.**
