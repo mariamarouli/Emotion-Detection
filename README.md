@@ -64,12 +64,13 @@ Make sure you have Python 3.7+ installed.
 
   1. Clone this repository:
   git clone https://github.com/mariamarouli/Emotion-Detection.git
-  cd Emotion-Detection
+  
+    cd Emotion-Detection
 
   2. Create a virtual environment:
   python -m venv .venv
 
- .venv\Scripts\activate
+   .venv\Scripts\activate
 
   4. Install the required dependencies:
   pip install -r requirements.txt
