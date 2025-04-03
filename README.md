@@ -52,7 +52,7 @@ The model is trained using the FER-2013 dataset, which is publicly available and
 
 * Training Set: 28,709 images.
 
-* Test Set: 3,589 images.
+* Test Set: 7,178 images.
 
 The dataset includes images in grayscale format, each of size 48x48 pixels, with faces centered and normalized.
 
