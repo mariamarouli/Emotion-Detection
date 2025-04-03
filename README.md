@@ -64,26 +64,27 @@ Make sure you have Python 3.7+ installed.
 
   1. Clone this repository:
 
-  git clone https://github.com/mariamarouli/Emotion-Detection.git
-  
-  cd Emotion-Detection
+    git clone https://github.com/mariamarouli/Emotion-Detection.git
+    
+    cd Emotion-Detection
 
   2. Create a virtual environment:
   
-  python -m venv .venv
-  
-  .venv\Scripts\activate
+    python -m venv .venv
+    
+    .venv\Scripts\activate
 
   3. Install the required dependencies:
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 **Make sure to have the trained model file (model.h5) in the project directory. You can train the model or use pre-trained version from this *model.h5* file.**
 
   4. Running the API
-  To start the FastAPI application, run the following command:
-  uvicorn main:app --reload
-  This will start the server at http://127.0.0.1:8000.
+
+    uvicorn main:app --reload
+  
+    This will start the server at *http://127.0.0.1:8000*.
 
 
 ## How to Use
